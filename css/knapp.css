@@ -1,0 +1,41 @@
+.circle {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 4.6%;
+    cursor: pointer;
+    z-index: 2;
+    background-color: rgb(219, 218, 218);
+    box-shadow: 10px 6px 10px 0 rgba(0,0,0,0.2);
+}
+.before,
+.after {
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 2px;
+    background-color: white;
+    border-radius: 0;
+    top: 27px;
+    -webkit-transition: 150ms ease-out;
+    -moz-transition: 150ms ease-out;
+    -o-transition: 150ms ease-out;
+    transition: 150ms ease-out;
+    z-index: 0;
+    
+}
+.before {
+    left: 7px;
+}
+.after {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: 7px;
+}
+
+
+
+
+

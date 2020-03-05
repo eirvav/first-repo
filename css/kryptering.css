@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #98b3d6;  /*fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #98b3d6, #f0f5ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #98b3d6, #f0f5ff);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Times New Roman', Times, serif;
+}
+.midtstiltDesign{
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 3.5%;
+}
+.storTekstboks{
+    width: 300px;
+}
+
+#inputKrypteringsnokkel{
+    width: 50px;
+    margin-left: 0.5%;
+}

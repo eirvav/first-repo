@@ -1,0 +1,46 @@
+.grid-item{
+  margin-top: 5%;
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #000000;
+}
+    
+/*bilde av meg*/
+  .about-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:504px;
+    height: 650px;
+  }
+  
+  /*bilde av mini meg*/
+  .about-image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
+    height: 525px;
+  }
+  
+  /*backflip-gif*/
+  .about-gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:340px;
+    height: 340px;
+  }
+  
+  /*google maps*/
+  .about-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bottom-p{
+      margin-bottom: 2%;
+  }

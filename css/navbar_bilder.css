@@ -1,0 +1,100 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 12.9fr ; 
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item:hover{
+    background: rgb(218, 224, 229);
+  }
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+
+/*dropdwnn*/
+
+/* stil */
+.sidenav a, .dropdown-btn {
+  padding: 6px 0px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(52, 58, 64, 0.918);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/*Legge til en aktiv klasse til den aktive dropdown button */
+.active {
+  background-color: rgb(218, 224, 229);
+  color: rgba(52, 58, 64, 0.918);
+}
+
+/* Dropdown container*/
+.dropdown-container {
+  display: none;
+  background-color: rgb(218, 224, 229);
+
+  
+  
+  
+}
+
+.drpdwn-content:hover {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 10px 6px 20px 0 rgba(0, 0, 0, 0.29);
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+
+}
+
+.drpdwn-content{
+  padding-left: 80px;
+  
+}
+
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*Pil*/
+.rotate {
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.rotate.down {
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+
+.with-chevron[aria-expanded='true'] i {
+  display: block;
+  transform: rotate(180deg) !important;
+}

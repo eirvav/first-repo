@@ -1,0 +1,60 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  background: #efecdb; 
+  
+  font-family: 'Times New Roman', Times, serif;
+  color: #5D4037;
+}
+
+.grid-item{
+  margin-top: 5%;
+}
+
+.hovedinnhold{
+  color: #000000;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #000000;
+}
+
+.display-4{
+  font-size: 4vw;
+
+}
+
+.underoverskrift{
+  font-size: 2vw;
+}
+
+.loremIpsum{
+font-size: 1.2vw;
+}
+
+.py-5{
+  margin-top: -5%;
+}
+
+iframe{
+  margin: 0 auto;
+}
+
+.btn-default{
+  background-color: rgb(148, 104, 73);
+}
+
+#sisteUtdanning{
+  margin: 0 auto;
+}
+
+#problemstilling{
+  color: black;
+}
+
+.indexBilder{
+  height: 100%;
+  width: 100%;
+}
